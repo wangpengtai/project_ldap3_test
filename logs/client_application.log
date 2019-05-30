@@ -1,0 +1,300 @@
+DEBUG:ldap3:ERROR:detail level set to BASIC
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uniqueMember - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <businessCategory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <owner - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <ou - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <o - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : groupOfUniqueNames, top
+AUX : <None>
+OID: groupOfUniqueNames (Structural) 2.5.6.17, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, objectClass, uniqueMember
+MAY : businessCategory, description, o, ou, owner, seeAlso
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : groupOfUniqueNames, top
+ATTRS  : ['businessCategory', 'cn', 'description', 'o', 'objectClass', 'ou', 'owner', 'seeAlso', 'uniqueMember']
+BASE   : 'ou=Group,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=groupOfUniqueNames)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:64408 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:ERROR:detail level set to BASIC
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uniqueMember - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <businessCategory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <owner - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <ou - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <o - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : groupOfUniqueNames, top
+AUX : <None>
+OID: groupOfUniqueNames (Structural) 2.5.6.17, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, objectClass, uniqueMember
+MAY : businessCategory, description, o, ou, owner, seeAlso
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : groupOfUniqueNames, top
+ATTRS  : ['businessCategory', 'cn', 'description', 'o', 'objectClass', 'ou', 'owner', 'seeAlso', 'uniqueMember']
+BASE   : 'ou=Group,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=groupOfUniqueNames)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:65233 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:ERROR:detail level set to BASIC
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uniqueMember - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <businessCategory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <owner - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <ou - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <o - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : groupOfUniqueNames, top
+AUX : <None>
+OID: groupOfUniqueNames (Structural) 2.5.6.17, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, objectClass, uniqueMember
+MAY : businessCategory, description, o, ou, owner, seeAlso
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : groupOfUniqueNames, top
+ATTRS  : ['businessCategory', 'cn', 'description', 'o', 'objectClass', 'ou', 'owner', 'seeAlso', 'uniqueMember']
+BASE   : 'ou=Group,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=groupOfUniqueNames)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <sn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <userPassword - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <telephoneNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <seeAlso - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <description - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <loginShell - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gecos - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated ObjectDef: <OBJ : person, posixAccount, top
+AUX : <None>
+OID: person (Structural) 2.5.6.6, top (Abstract) 2.5.6.0, posixAccount (Auxiliary) 1.3.6.1.1.1.2.0, top (Abstract) 2.5.6.0, top (Abstract) 2.5.6.0
+MUST: cn, gidNumber, homeDirectory, objectClass, sn, uid, uidNumber
+MAY : description, gecos, loginShell, seeAlso, telephoneNumber, userPassword
+>
+DEBUG:ldap3:BASIC:instantiated Reader Cursor: <CURSOR : Reader
+CONN   : ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder
+DEFS   : person, posixAccount, top
+ATTRS  : ['cn', 'description', 'gecos', 'gidNumber', 'homeDirectory', 'loginShell', 'objectClass', 'seeAlso', 'sn', 'telephoneNumber', 'uid', 'uidNumber', 'userPassword']
+BASE   : 'ou=People,dc=sensoro,dc=com' [SUB]
+FILTER : '(&(objectClass=person)(objectClass=posixAccount)(objectClass=top))'
+>
+DEBUG:ldap3:BASIC:start SEARCH operation via <ldap://192.168.56.103:389 - cleartext - user: cn=root,dc=sensoro,dc=com - not lazy - bound - open - <local: 192.168.56.1:49771 - remote: 192.168.56.103:389> - tls not started - listening - SyncStrategy - internal decoder>
+DEBUG:ldap3:BASIC:done SEARCH operation, result <True>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <objectClass - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <cn - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uid - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <uidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <gidNumber - mandatory: False>
+DEBUG:ldap3:BASIC:instantiated AttrDef: <homeDirectory - mandatory: False>
